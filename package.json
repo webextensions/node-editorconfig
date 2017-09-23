@@ -1,6 +1,6 @@
 {
   "name": "node-editorconfig",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A generic .editorconfig for Node JS projects",
   "bin": {
     "copy-editorconfig-to-project": "./copy-editorconfig-to-project.js"
