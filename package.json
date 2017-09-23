@@ -1,21 +1,22 @@
 {
   "name": "node-editorconfig",
   "version": "0.0.1",
-  "description": "Automatically add .editorconfig for Node JS projects",
+  "description": "A generic .editorconfig for Node JS projects",
+  "bin": {
+    "copy-editorconfig-to-project": "./copy-editorconfig-to-project.js"
+  },
   "scripts": {
-    "test": "echo \"No test specified\"",
-    "postinstall": "node ./copy-editorconfig-to-project.js"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webextensions/node-editorconfig.git"
   },
   "dependencies": {
-    "cp-file": "4.2.0"
+    "cp-file": "5.0.0"
   },
   "keywords": [
-    "automatically",
-    "add",
+    "generic",
     "editorconfig",
     ".editorconfig",
     "in",
