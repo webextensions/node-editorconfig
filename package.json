@@ -1,28 +1,33 @@
 {
   "name": "node-editorconfig",
   "version": "0.1.2",
-  "description": "A generic .editorconfig for Node JS projects",
+  "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
   "bin": {
-    "copy-editorconfig-to-project": "./copy-editorconfig-to-project.js"
+    "node-editorconfig": "./copy-editorconfig-to-cwd.js"
   },
   "scripts": {
-    "test": "echo \"No test specified\""
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webextensions/node-editorconfig.git"
   },
   "dependencies": {
-    "cp-file": "5.0.0"
+    "cp-file": "6.0.0"
   },
   "keywords": [
     "generic",
+    "setup",
+    "init",
+    "initialize",
+    "default",
     "editorconfig",
     ".editorconfig",
-    "in",
     "node",
     "js",
-    "node.js",
+    "NodeJS",
+    "Node.js",
     "project"
   ],
   "author": "Priyank Parashar",
@@ -30,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/webextensions/node-editorconfig/issues"
   },
-  "homepage": "https://github.com/webextensions/node-editorconfig#readme"
+  "homepage": "https://github.com/webextensions/node-editorconfig#readme",
+  "devDependencies": {
+    "eslint": "^5.11.0"
+  }
 }
