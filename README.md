@@ -5,6 +5,13 @@ A generic .editorconfig for Node JS projects
 
 # Usage
 
+## Method 1: Without installing
+```sh
+$ cd /path/to/project/
+$ npx node-editorconfig
+```
+
+## Method 2: With `--global` installation
 ```sh
 $ npm install --global node-editorconfig
 $ cd /path/to/project/
@@ -16,9 +23,10 @@ $ node-editorconfig
 
 `--overwrite` (To overwrite the .editorconfig file, if it already exists)
 ```sh
-$ node-editorconfig --overwrite
+$ npx node-editorconfig --overwrite
  ✓ .editorconfig file overwritten at /path/to/project/.editorconfig
 ```
+
 
 # About this project
 
@@ -28,7 +36,7 @@ $ node-editorconfig --overwrite
 
 ## Connect to us
 
-* https://webextensions.org/
+* https://www.webextensions.org/
 * [GitHub](https://github.com/webextensions/live-css-editor)
 * [Twitter](https://twitter.com/webextensions)
 
