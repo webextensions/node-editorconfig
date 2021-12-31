@@ -34,7 +34,7 @@ $ npx node-editorconfig --overwrite
 
 * Priyank Parashar - [GitHub](https://github.com/paras20xx) | [Twitter](https://twitter.com/paras20xx) | [LinkedIn](https://linkedin.com/in/ParasharPriyank/)
 
-## Connect to us
+## Connect with us
 
 * https://www.webextensions.org/
 * [GitHub](https://github.com/webextensions/live-css-editor)
