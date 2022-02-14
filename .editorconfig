@@ -2,6 +2,12 @@
 #     https://github.com/webextensions/node-editorconfig
 #     https://www.npmjs.com/package/node-editorconfig
 #
+# To generate this file:
+#     $ npx node-editorconfig
+#
+# To update this file:
+#     $ npx node-editorconfig --overwrite
+#
 # References:
 #     http://editorconfig.org/ (Official Site)
 #     http://editorconfig.org/#download (Plugins)

@@ -17,7 +17,7 @@
     "cp-file": "^9.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.5.0"
+    "eslint": "^8.9.0"
   },
   "keywords": [
     "generic",
