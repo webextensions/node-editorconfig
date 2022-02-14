@@ -3,10 +3,10 @@
 #     https://www.npmjs.com/package/node-editorconfig
 #
 # To generate this file:
-#     $ npx node-editorconfig
+#     $ npx node-editorconfig@latest
 #
 # To update this file:
-#     $ npx node-editorconfig --overwrite
+#     $ npx node-editorconfig@latest --overwrite
 #
 # References:
 #     http://editorconfig.org/ (Official Site)
