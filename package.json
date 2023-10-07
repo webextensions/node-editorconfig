@@ -14,10 +14,10 @@
     "url": "git+https://github.com/webextensions/node-editorconfig.git"
   },
   "dependencies": {
-    "cp-file": "^9.1.0"
+    "cp-file": "=9.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.9.0"
+    "eslint": "^8.51.0"
   },
   "keywords": [
     "generic",
