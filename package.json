@@ -1,42 +1,42 @@
 {
-  "name": "node-editorconfig",
-  "version": "1.2.3",
-  "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
-  "bin": {
-    "node-editorconfig": "./copy-editorconfig-to-cwd.js"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/webextensions/node-editorconfig.git"
-  },
-  "dependencies": {
-    "cp-file": "=9.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.51.0"
-  },
-  "keywords": [
-    "generic",
-    "setup",
-    "init",
-    "initialize",
-    "default",
-    "editorconfig",
-    ".editorconfig",
-    "node",
-    "js",
-    "NodeJS",
-    "Node.js",
-    "project"
-  ],
-  "author": "Priyank Parashar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/webextensions/node-editorconfig/issues"
-  },
-  "homepage": "https://github.com/webextensions/node-editorconfig#readme"
+    "name": "node-editorconfig",
+    "version": "1.2.3",
+    "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
+    "bin": {
+        "node-editorconfig": "./copy-editorconfig-to-cwd.js"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/webextensions/node-editorconfig.git"
+    },
+    "dependencies": {
+        "cp-file": "=9.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.51.0"
+    },
+    "keywords": [
+        "generic",
+        "setup",
+        "init",
+        "initialize",
+        "default",
+        "editorconfig",
+        ".editorconfig",
+        "node",
+        "js",
+        "NodeJS",
+        "Node.js",
+        "project"
+    ],
+    "author": "Priyank Parashar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/webextensions/node-editorconfig/issues"
+    },
+    "homepage": "https://github.com/webextensions/node-editorconfig#readme"
 }
