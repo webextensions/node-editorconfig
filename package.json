@@ -2,6 +2,9 @@
     "name": "node-editorconfig",
     "version": "1.2.3",
     "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
+    "engines": {
+        "node": ">=18"
+    },
     "bin": {
         "node-editorconfig": "./copy-editorconfig-to-cwd.js"
     },
