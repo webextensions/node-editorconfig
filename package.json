@@ -1,6 +1,6 @@
 {
     "name": "node-editorconfig",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
     "engines": {
         "node": ">=18"
