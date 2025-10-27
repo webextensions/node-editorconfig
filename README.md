@@ -16,7 +16,7 @@ $ npx node-editorconfig
 $ npm install --global node-editorconfig
 $ cd /path/to/project/
 $ node-editorconfig
- ✓ .editorconfig file added at /path/to/project/.editorconfig
+ ✔ .editorconfig file added at /path/to/project/.editorconfig
 ```
 
 ## Parameters
@@ -24,7 +24,7 @@ $ node-editorconfig
 `--overwrite` (To overwrite the .editorconfig file, if it already exists)
 ```sh
 $ npx node-editorconfig --overwrite
- ✓ .editorconfig file overwritten at /path/to/project/.editorconfig
+ ✔ .editorconfig file overwritten at /path/to/project/.editorconfig
 ```
 
 
