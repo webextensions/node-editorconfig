@@ -3,13 +3,13 @@
     "version": "1.4.1",
     "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
     "engines": {
-        "node": ">=20"
+        "node": ">=22.12.0"
     },
     "bin": {
         "node-editorconfig": "./copy-editorconfig-to-cwd.js"
     },
     "scripts": {
-        "lint": "eslint .",
+        "lint": "eslint . --report-unused-disable-directives",
         "test": "npm run lint"
     },
     "repository": {
@@ -20,7 +20,9 @@
         "cp-file": "=9.1.0"
     },
     "devDependencies": {
-        "eslint": "=8.57.1"
+        "eslint": "^9.39.1",
+        "@eslint/js": "^9.39.1",
+        "globals": "^16.5.0"
     },
     "keywords": [
         "generic",
