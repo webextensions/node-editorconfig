@@ -41,7 +41,8 @@ insert_final_newline = false
 insert_final_newline = true
 
 # [{*.markdown,*.md,*.mdown,*.mkd,*.mkdn,*.text}] # https://superuser.com/questions/249436/file-extension-for-markdown-files/285878#285878
-[{*.md}]
+# [*.mdc] # https://cursor.com/docs/context/rules#rule-file-structure
+[{*.md,*.mdc}]
 trim_trailing_whitespace = false # https://stackoverflow.com/editing-help#linebreaks
 
 [{*.bat,*.cmd}]
