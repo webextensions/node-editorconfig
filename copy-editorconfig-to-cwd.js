@@ -70,7 +70,7 @@ if (writeToFile) {
         );
 
         console.error(e);
-        console.log('');
+        console.error('');
 
         console.error('Aborting with exit code 1');
         process.exit(1);
