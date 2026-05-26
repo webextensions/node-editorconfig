@@ -37,7 +37,7 @@ indent_style = tab
 [{*.json,.node-version,.nvmrc,*.svg}]
 insert_final_newline = false
 
-[{nodemon.json}]
+[nodemon.json]
 insert_final_newline = true
 
 [.claude/{settings.json,settings.local.json}]
