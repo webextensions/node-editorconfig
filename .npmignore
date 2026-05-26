@@ -1,0 +1,6 @@
+# Dev tooling & config
+eslint.config.cjs
+.nvmrc
+
+# Output of `npm pack`
+*.tgz

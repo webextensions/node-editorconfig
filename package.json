@@ -8,6 +8,10 @@
     "bin": {
         "node-editorconfig": "./copy-editorconfig-to-cwd.js"
     },
+    "files": [
+        ".editorconfig",
+        "copy-editorconfig-to-cwd.js"
+    ],
     "scripts": {
         "start": "node ./copy-editorconfig-to-cwd.js",
         "eslint": "eslint .",
