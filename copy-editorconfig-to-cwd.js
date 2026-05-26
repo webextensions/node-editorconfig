@@ -42,12 +42,13 @@ if (fs.existsSync(targetPath)) {
         overwriting = true;
     } else {
         console.info(' ✔ .editorconfig file already exists at ' + targetPath);
-        console.info(
-            '\n Note' +
-            '\n ====' +
-            '\n You may wish to use --overwrite parameter to update the .editorconfig file' +
-            '\n'
-        );
+        console.info([
+            '',
+            ' Note',
+            ' ====',
+            ' You may wish to use --overwrite parameter to update the .editorconfig file',
+            ''
+        ].join('\n'));
     }
 } else {
     writeToFile = true;
@@ -62,12 +63,13 @@ if (writeToFile) {
             console.info(' ✔ .editorconfig file added at ' + targetPath);
         }
     } catch (e) {
-        console.error(
-            '\n ✗ Unable to write .editorconfig file at ' + targetPath +
-            '\n' +
-            '\n Error details' +
-            '\n ============='
-        );
+        console.error([
+            '',
+            ' ✗ Unable to write .editorconfig file at ' + targetPath,
+            '',
+            ' Error details',
+            ' ============='
+        ].join('\n'));
 
         console.error(e);
         console.error('');
