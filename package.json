@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "node ./copy-editorconfig-to-cwd.js",
-        "eslint": "eslint . --report-unused-disable-directives",
+        "eslint": "eslint .",
         "test": "node --run eslint"
     },
     "repository": {

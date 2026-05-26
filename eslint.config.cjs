@@ -1,9 +1,11 @@
 const globals = require('globals');
 const js = require('@eslint/js');
+const { defineConfig } = require('eslint/config');
 
-module.exports = [
+module.exports = defineConfig([
     {
         // https://eslint.org/docs/latest/use/configure/ignore
+        // Add patterns here, or use globalIgnores(['dist/', ...]) from 'eslint/config'.
         ignores: [
         ]
     },
@@ -11,6 +13,7 @@ module.exports = [
     js.configs.recommended,
 
     {
+        name: 'project/main',
         files: [
             '**/*.js',
             '**/*.cjs',
@@ -28,6 +31,11 @@ module.exports = [
             }
         },
 
+        linterOptions: {
+            reportUnusedDisableDirectives: 'error',
+            reportUnusedInlineConfigs: 'error'
+        },
+
         rules: {
             'indent': ['error', 4, {'SwitchCase': 1}],
             'linebreak-style': ['error', 'unix'],
@@ -36,4 +44,4 @@ module.exports = [
             'semi': ['error', 'always']
         }
     }
-];
+]);
