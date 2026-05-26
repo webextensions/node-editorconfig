@@ -7,14 +7,19 @@ A generic .editorconfig for Node JS projects
 
 ## Method 1: Without installing
 ```sh
-$ cd /path/to/project/
+$ cd /path/to/your/project/
+
 $ npx node-editorconfig
+  <OR>
+$ npx --min-release-age=0 node-editorconfig@latest --overwrite
 ```
 
 ## Method 2: With `--global` installation
 ```sh
 $ npm install --global node-editorconfig
+
 $ cd /path/to/project/
+
 $ node-editorconfig
  ✔ .editorconfig file added at /path/to/project/.editorconfig
 ```
@@ -36,6 +41,7 @@ $ npx node-editorconfig --version
 `--help` / `-h` (Show usage help)
 ```sh
 $ npx node-editorconfig --help
+... Usage Instructions ...
 ```
 
 
