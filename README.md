@@ -30,7 +30,7 @@ $ npx node-editorconfig --overwrite
 `--version` / `-v` (Show the installed package version)
 ```sh
 $ npx node-editorconfig --version
-1.5.2
+1.2.3
 ```
 
 `--help` / `-h` (Show usage help)
