@@ -3,7 +3,7 @@
     "version": "1.5.2",
     "description": "A generic .editorconfig for Node JS projects. $ npm i -g node-editorconfig ; node-editorconfig",
     "engines": {
-        "node": ">=22.12.0"
+        "node": ">=20.0.0"
     },
     "bin": {
         "node-editorconfig": "./copy-editorconfig-to-cwd.js"
