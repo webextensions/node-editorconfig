@@ -40,6 +40,9 @@ insert_final_newline = false
 [{nodemon.json}]
 insert_final_newline = true
 
+[.claude/{settings.json,settings.local.json}]
+indent_size = 2
+
 # [{*.markdown,*.md,*.mdown,*.mkd,*.mkdn,*.text}] # https://superuser.com/questions/249436/file-extension-for-markdown-files/285878#285878
 # [*.mdc] # https://cursor.com/docs/context/rules#rule-file-structure
 [{*.md,*.mdc}]
