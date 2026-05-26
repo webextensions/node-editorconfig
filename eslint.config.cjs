@@ -24,7 +24,7 @@ module.exports = defineConfig([
         ],
         languageOptions: {
             ecmaVersion: 'latest',
-            sourceType: 'module',
+            sourceType: 'commonjs',
             globals: {
                 // Node.js environment globals
                 ...globals.node
