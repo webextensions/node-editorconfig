@@ -9,8 +9,9 @@
         "node-editorconfig": "./copy-editorconfig-to-cwd.js"
     },
     "scripts": {
-        "lint": "eslint . --report-unused-disable-directives",
-        "test": "npm run lint"
+        "start": "node ./copy-editorconfig-to-cwd.js",
+        "eslint": "eslint . --report-unused-disable-directives",
+        "test": "node --run eslint"
     },
     "repository": {
         "type": "git",
