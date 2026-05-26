@@ -27,6 +27,17 @@ $ npx node-editorconfig --overwrite
  ✔ .editorconfig file overwritten at /path/to/project/.editorconfig
 ```
 
+`--version` / `-v` (Show the installed package version)
+```sh
+$ npx node-editorconfig --version
+1.5.2
+```
+
+`--help` / `-h` (Show usage help)
+```sh
+$ npx node-editorconfig --help
+```
+
 
 # About this project
 
