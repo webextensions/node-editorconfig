@@ -17,13 +17,10 @@
         "type": "git",
         "url": "git+https://github.com/webextensions/node-editorconfig.git"
     },
-    "dependencies": {
-        "cp-file": "=9.1.0"
-    },
     "devDependencies": {
-        "eslint": "^9.39.1",
-        "@eslint/js": "^9.39.1",
-        "globals": "^16.5.0"
+        "eslint": "^10.4.0",
+        "@eslint/js": "^10.0.1",
+        "globals": "^17.6.0"
     },
     "keywords": [
         "generic",

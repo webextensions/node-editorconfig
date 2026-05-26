@@ -3,8 +3,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const cpFile = require('cp-file');
-
 const cwd = process.cwd();
 const sourcePath = path.resolve(__dirname, '.editorconfig');
 const targetPath = path.resolve(cwd, '.editorconfig');
@@ -31,7 +29,7 @@ if (fs.existsSync(targetPath)) {
 
 if (writeToFile) {
     try {
-        cpFile.sync(sourcePath, targetPath);
+        fs.copyFileSync(sourcePath, targetPath);
         if (overwriting) {
             console.info(' ✔ .editorconfig file overwritten at ' + targetPath);
         } else {
