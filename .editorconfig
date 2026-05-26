@@ -45,14 +45,19 @@ indent_size = 2
 
 # [{*.markdown,*.md,*.mdown,*.mkd,*.mkdn,*.text}] # https://superuser.com/questions/249436/file-extension-for-markdown-files/285878#285878
 # [*.mdc] # https://cursor.com/docs/context/rules#rule-file-structure
+# https://stackoverflow.com/editing-help#linebreaks
 [{*.md,*.mdc}]
-trim_trailing_whitespace = false # https://stackoverflow.com/editing-help#linebreaks
+trim_trailing_whitespace = false
 
 [{*.bat,*.cmd}]
 end_of_line = crlf
 
-# [/node_modules/**] # Glob/minimatch pattern to match the "node_modules" directory only at the project root
-[node_modules/**]    # Glob/minimatch pattern to match the "node_modules" directory at any level
+## Glob/minimatch pattern to match the "node_modules" directory only at the project root
+# [/node_modules/**]
+# ...
+
+# Glob/minimatch pattern to match the "node_modules" directory at any level
+[node_modules/**]
 charset = unset
 end_of_line = unset
 indent_size = unset
